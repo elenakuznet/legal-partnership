@@ -1,6 +1,7 @@
 <?
 echo '
-<section class="consultation" itemscope itemtype="https://schema.org/LocalBusiness">
+
+<!--section> class="consultation" itemscope itemtype="https://schema.org/LocalBusiness">
     <!--div class="content-center">
         <button href="#modal-consultation-order" class="consultation__btn open-modal">' . $row17["text27"] . '<span class="icon-arrow1"></span></button>
     </div-->
@@ -21,7 +22,8 @@ echo '
 	<meta itemprop="postalCode" content="' . $row17["text16"] . '">
 	<meta itemprop="streetAddress" content="' . $row17["text18"] . '">
 	</div>
-</section>	
+</section-->
+
 	<footer class="footer is-hide-mobile">
 		
 	
@@ -152,9 +154,11 @@ echo '
         <div class="footer__docs">
           <span class="docs__file"><a href="soglashenie">' . $row17["text21"] . '</a></span>
           <span class="docs__file"><a href="politika">' . $row17["text22"] . '</a></span>
-		  <div class="fgf">
-           <a href="https://studio45.ru" target="_blank">Разработано  <strong> Dark Studio</strong></a>
-                  </div>
+		<!-- 
+		<div class="fgf">
+		  	<a href="https://studio45.ru" target="_blank">Разработано  <strong> Dark Studio</strong></a>
+		</div>
+		-->
         </div>
 		
 			</div>
@@ -167,8 +171,12 @@ echo '
 	<h5 class="footer__caption"><a href="mailto:' . $row17["text3"] . '" class="header__write-link open-modal">' . $row17["text3"] . '</a></h5><a href="tel:' . $row17["text4"] . '" class="phone__link">' . $row17["text4"] . '</a>
 	<div class="copyright__webprofy">  <span class="docs__file"><a href="soglashenie">' . $row17["text21"] . '</a></span>
           <span class="docs__file"><a href="politika">' . $row17["text22"] . '</a></span><br><br> <div class="fgf">
-            <p><a href="https://studio45.ru" target="_blank">Разработано  <strong> Dark Studio</strong></a></p>
-                  </div><br></div>
+            
+		  
+		  <!-- 
+		  <p><a href="https://studio45.ru" target="_blank">Разработано  <strong> Dark Studio</strong></a></p>
+		  -->
+        </div><br></div>
 		  
 </footer>
 	</div>
@@ -540,26 +548,29 @@ echo '
 
     </div>
 
-		</div-->
-		<style>
-.consultation {
-  background: url(../img/' . $row17["img2"] . ') center;
-  -webkit-background-size: cover;
-          background-size: cover;
-  height: 180px;
-  text-align: center;
-  position: relative;
-}
-			.mfp-bg.login-back {
-  background: url("../img/' . $row17["img3"] . '");
-}
-@media screen and (max-width: 767px) {
- .consultation {
-  background: url("../img/' . $row17["img4"] . '") 100% center center no-repeat;
-  height: 68px;
-}
-}
-</style>
+		</div>-->
+		
+	<style>
+
+// .consultation {
+//   background: url(../img/' . $row17["img2"] . ') center;
+//   -webkit-background-size: cover;
+//           background-size: cover;
+//   height: 180px;
+//   text-align: center;
+//   position: relative;
+// }
+// 			.mfp-bg.login-back {
+//   background: url("../img/' . $row17["img3"] . '");
+// }
+// @media screen and (max-width: 767px) {
+//  .consultation {
+//   background: url("../img/' . $row17["img4"] . '") 100% center center no-repeat;
+//   height: 68px;
+// }
+// }
+ </style>
+
 		';
 ?>
 <script type="text/javascript">

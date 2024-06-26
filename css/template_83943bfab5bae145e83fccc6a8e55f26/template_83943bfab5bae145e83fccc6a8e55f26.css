@@ -11493,21 +11493,21 @@ textarea:focus.ui-placeholder {
   opacity: .8;
 }
 
-.footer__social-link.fb {
+/* .footer__social-link.fb {
   background-position-x: -6px;
 }
 
 .footer__social-link.twitter {
   background-position-x: -40px;
-}
+} */
 
-.footer__social-link.in {
+/* .footer__social-link.in {
   background: url("../../../../../../img/706.png") no-repeat center ;
 }
 
 .footer__social-link.vk {
   background: url("../../../../../../img/707.png") no-repeat center ;
-}
+} */
 
 .footer__arrow-up {
   position: absolute;
@@ -23745,6 +23745,16 @@ textarea:focus.ui-placeholder {
   font-size: 17px;
   /* font-size: 20px; */
 }
+
+
+@media (max-width: 780px) {
+  .header__write-link {
+    font-size: 12px;
+    /* font-size: 20px; */
+  }
+  
+}
+
 
 .header__phone-btn {
   font-size: 17px;
