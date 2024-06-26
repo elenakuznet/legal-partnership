@@ -1,0 +1,25 @@
+User-agent: Yandex
+Disallow: /404.php
+Disallow: /politika.php
+Disallow: /soglashenie.php
+Disallow: /wp-login.php
+Disallow: /?p=194
+Disallow: /?p=169
+Disallow: /?p=72
+Disallow: /?p=123
+Disallow: /?p=76
+Disallow: /?p=92
+Disallow: /?p=96
+Disallow: /?p=88
+Disallow: /?p=125
+Disallow: /?p=128
+Disallow: /sm/
+Host: https://xn--45-vlc5agg4f.xn--p1ai/
+
+User-agent: *
+Disallow: /404.php
+Disallow: /politika.php
+Disallow: /soglashenie.php
+Disallow: /sm/
+
+Sitemap: https://xn--45-vlc5agg4f.xn--p1ai/sitemap.xml

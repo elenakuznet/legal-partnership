@@ -1,0 +1,51 @@
+Options +FollowSymlinks
+
+#включить переадрес
+RewriteEngine On
+
+#с www на без www
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+
+#убрать .php
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^.*$ $0.php [L,QSA]
+RewriteCond %{THE_REQUEST} " (/[^?/]+)\.php"
+RewriteRule ^ %1 [R=301,L]
+
+#с index на /
+RewriteCond %{THE_REQUEST} ^.*/index
+RewriteRule ^(.*)index.php$ https://%{HTTP_HOST}/$1? [R=301,L]
+
+#убрать GET параметры для каталога или главной
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{QUERY_STRING} (.+) [NC]
+RewriteRule ^$ /? [R=301,L]
+
+#500  Внутренняя ошибка сервера
+ErrorDocument 404 /404.php
+
+#буферизация
+php_value output_buffering On
+
+#для панели управления
+php_value output_handler mb_output_handler
+
+#не выводить предупреждения Notice
+php_value error_reporting 1
+
+#кеширование
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType image/jpg "access 1 month"
+ExpiresByType image/jpeg "access 1 month"
+ExpiresByType image/gif "access 1 month"
+ExpiresByType image/png "access 1 month"
+ExpiresByType text/css "access 1 month"
+ExpiresByType text/html "access 1 month"
+ExpiresByType application/pdf "access 1 month"
+ExpiresByType text/x-javascript "access 1 month"
+ExpiresByType application/x-shockwave-flash "access 1 month"
+ExpiresByType image/x-icon "access 1 year"
+ExpiresDefault "access 1 month"
+</IfModule>
