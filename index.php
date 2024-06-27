@@ -2,50 +2,45 @@
 <html lang="ru">
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <link rel="canonical" href="https://юрист45.рф/" />
-    <meta name="robots" content="index, follow">
-    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Юристы и адвокаты Кургана - Юридическая компания ПРАВОВОЕ ПАРТНЁРСТВО</title>
-    <meta name="description" property="og:description"
-        content="Наши специалисты имеют большой опыт работы в сфере юридических услуг, работают во всех направлениях, и помогут Вам разрешить любую ситуацию и спор в Вашу сторону.">
-    <meta name="copyright" property="og:site_name" content="Юридическая компания ПРАВОВОЕ ПАРТНЁРСТВО Курган">
-    <meta property="og:title" content="Юристы и адвокаты Кургана - Юридическая компания ПРАВОВОЕ ПАРТНЁРСТВО" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://юрист45.рф/" />
-    <meta name="imagetoolbar" content="no">
-    <meta name="msthemecompatible" content="no">
-    <meta name="cleartype" content="on">
-    <meta name="HandheldFriendly" content="True">
-    <meta name="format-detection" content="telephone=no">
-    <meta name="format-detection" content="address=no">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link href="css\kernel_main\kernel_main.css?152042467544417" type="text/css" rel="stylesheet">
-    <link href="css\kernel_socialservices\kernel_socialservices.css?1520424615512" type="text/css" rel="stylesheet">
-    <script src="https://api-maps.yandex.ru/2.1/?apikey=f4112ee9-ccf1-46a4-aaa2-b243dc478c03&lang=ru_RU"></script>
-    <link
-        href="css\template_83943bfab5bae145e83fccc6a8e55f26\template_83943bfab5bae145e83fccc6a8e55f26.css?1520424615451015"
-        type="text/css" data-template-style="true" rel="stylesheet">
-    <link href="bitrix\panel\main\popup.min.css?149849325520704" type="text/css" data-template-style="true"
-        rel="stylesheet">
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-    <!-- Swiper -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="canonical" href="https://юрист45.рф/" />
+	<meta name="robots" content="index, follow">
+	<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Юристы и адвокаты Кургана - Юридическая компания ПРАВОВОЕ ПАРТНЁРСТВО</title>
+	<meta name="description" property="og:description" content="Наши специалисты имеют большой опыт работы в сфере юридических услуг, работают во всех направлениях, и помогут Вам разрешить любую ситуацию и спор в Вашу сторону.">
+	<meta name="copyright" property="og:site_name" content="Юридическая компания ПРАВОВОЕ ПАРТНЁРСТВО Курган">
+	<meta property="og:title" content="Юристы и адвокаты Кургана - Юридическая компания ПРАВОВОЕ ПАРТНЁРСТВО" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://юрист45.рф/" />
+	<meta name="imagetoolbar" content="no">
+	<meta name="msthemecompatible" content="no">
+	<meta name="cleartype" content="on">
+	<meta name="HandheldFriendly" content="True">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="format-detection" content="address=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<link href="css\kernel_main\kernel_main.css?152042467544417" type="text/css" rel="stylesheet">
+	<link href="css\kernel_socialservices\kernel_socialservices.css?1520424615512" type="text/css" rel="stylesheet">
+	<script src="https://api-maps.yandex.ru/2.1/?apikey=f4112ee9-ccf1-46a4-aaa2-b243dc478c03&lang=ru_RU"></script>
+	<link href="css\template_83943bfab5bae145e83fccc6a8e55f26\template_83943bfab5bae145e83fccc6a8e55f26.css?1520424615451015" type="text/css" data-template-style="true" rel="stylesheet">
+	<link href="bitrix\panel\main\popup.min.css?149849325520704" type="text/css" data-template-style="true" rel="stylesheet">
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+	<!-- Swiper -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-        rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+	<!-- Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
 
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lora:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lora:400,700" rel="stylesheet">
 
-    <?
+	<?
 	include("sm/include/connect.php");
 	$result17 = DB::Query("SELECT * FROM site", $link);
 	$row17 = /* fixed MMiC */ mysqli_fetch_array($result17);
@@ -58,7 +53,7 @@
 
 <body class="">
 
-    <?
+	<?
 
 	include('include/header.php');
 
@@ -1061,79 +1056,70 @@
 	include('include/footer.php') ?>
 
 
-    <script>
-    ymaps.ready(init);
+	<script>
+		ymaps.ready(init);
 
-    function init() {
-        const myMap = new ymaps.Map("map", {
-            center: [55.437112, 65.353596],
-            zoom: 17,
-        });
+		function init() {
+			const myMap = new ymaps.Map("map", {
+				center: [55.437112, 65.353596],
+				zoom: 17,
+			});
 
-        const mark = new ymaps.Placemark([55.437112, 65.353596]);
-        myMap.geoObjects.add(mark);
+			const mark = new ymaps.Placemark([55.437112, 65.353596]);
+			myMap.geoObjects.add(mark);
 
-        myMap.behaviors.disable("drag");
+			myMap.behaviors.disable("drag");
 
-        myMap.controls.remove("geolocationControl");
-        myMap.controls.remove("searchControl");
-        myMap.controls.remove("trafficControl");
-        myMap.controls.remove("typeSelector");
-        myMap.controls.remove('fullscreenControl');
-        myMap.controls.remove('zoomControl');
-    }
+			myMap.controls.remove("geolocationControl");
+			myMap.controls.remove("searchControl");
+			myMap.controls.remove("trafficControl");
+			myMap.controls.remove("typeSelector");
+			myMap.controls.remove('fullscreenControl');
+			myMap.controls.remove('zoomControl');
+		}
 
-    const swiper = new Swiper('.swiper', {
-        // Optional parameters
-        // direction: 'vertical',
-        spaceBetween: 20,
-        slidesPerView: 3,
-        // centeredSlides: true,
-        loop: true,
-        mousewheel: true,
-        keyboard: true,
-        loop: true,
+		const swiper = new Swiper('.swiper', {
+			// Optional parameters
+			// direction: 'vertical',
+			spaceBetween: 20,
+			slidesPerView: 3,
+			// centeredSlides: true,
+			loop: true,
+			mousewheel: true,
+			keyboard: true,
+			loop: true,
 
-        // If we need pagination
-        // pagination: {
-        //     el: '.swiper-pagination',
-        // },
+			// Navigation arrows
+			navigation: {
+				nextEl: '.button-next',
+				prevEl: '.button-prev',
+			},
 
-        // Navigation arrows
-        navigation: {
-            nextEl: '.button-next',
-            prevEl: '.button-prev',
-        },
+			breakpoints: {
+				// when window width is >= 320px
+				220: {
+					slidesPerView: 1,
+					spaceBetween: 20
+				},
+				// when window width is >= 480px
+				480: {
+					slidesPerView: 2,
+					spaceBetween: 20
+				},
+				// when window width is >= 640px
+				640: {
+					slidesPerView: 2,
+					spaceBetween: 30
+				},
+				860: {
+					spaceBetween: 20,
+					slidesPerView: 3,
+				}
 
-        breakpoints: {
-            // when window width is >= 320px
-            220: {
-                slidesPerView: 1,
-                spaceBetween: 20
-            },
-            // when window width is >= 480px
-            480: {
-                slidesPerView: 2,
-                spaceBetween: 20
-            },
-            // when window width is >= 640px
-            640: {
-                slidesPerView: 2,
-                spaceBetween: 30
-            },
-            860: {
-                spaceBetween: 20,
-                slidesPerView: 3,
-            }
+			}
 
-        }
-
-        // And if we need scrollbar
-        // scrollbar: {
-        // 	el: '.swiper-scrollbar',
-        // },
-    });
-    </script>
+		});
+	</script>
 </body>
 
 </html>
