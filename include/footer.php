@@ -552,23 +552,23 @@ echo '
 		
 	<style>
 
-// .consultation {
-//   background: url(../img/' . $row17["img2"] . ') center;
-//   -webkit-background-size: cover;
-//           background-size: cover;
-//   height: 180px;
-//   text-align: center;
-//   position: relative;
-// }
-// 			.mfp-bg.login-back {
-//   background: url("../img/' . $row17["img3"] . '");
-// }
-// @media screen and (max-width: 767px) {
-//  .consultation {
-//   background: url("../img/' . $row17["img4"] . '") 100% center center no-repeat;
-//   height: 68px;
-// }
-// }
+.consultation {
+  background: url(../img/' . $row17["img2"] . ') center;
+  -webkit-background-size: cover;
+          background-size: cover;
+  height: 180px;
+  text-align: center;
+  position: relative;
+}
+			.mfp-bg.login-back {
+  background: url("../img/' . $row17["img3"] . '");
+}
+@media screen and (max-width: 767px) {
+ .consultation {
+  background: url("../img/' . $row17["img4"] . '") 100% center center no-repeat;
+  height: 68px;
+}
+}
  </style>
 
 		';

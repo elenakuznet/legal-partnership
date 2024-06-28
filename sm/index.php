@@ -48,9 +48,6 @@ if (isset($action))
     // �������� �����
      
         
-      
-     
-	
  
         if (empty($_POST["uimage"]))
       {        

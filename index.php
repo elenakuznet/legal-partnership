@@ -272,11 +272,11 @@
 
 <section class="tile2">
 <div class="content-center">
-<h1 class="jkjk55">Юридическая компания ПРАВОВОЕ ПАРТНЁРСТВО<br> профессиональные юристы и адвокаты</h1>
+<h1 class="title">Юридическая компания ПРАВОВОЕ ПАРТНЁРСТВО<br> профессиональные юристы и адвокаты</h1>
 <div class="infocenter clearfix">
 			<h2 class="infocenter__caption">' . $row["text36"] . '</h2>
 			<a href="yuridicheskie-uslugi" class="infocenter__button is-hide-mobile">' . $row["text37"] . '<span class="icon-arrow1"></span></a>
-		</div>
+</div>
 		<br>
 	
 ';
@@ -414,204 +414,6 @@
 	</section>
 	
 
-
-	<!--section class="project-slider__section">
-		<div class="content-center">
-			<div class="project-slider ">
-									<div class="project-slider__item" id="bx_1373509569_3516">
-						<img src="upload\resize_cache\iblock\728\1170_480_2\shutterstock_120486994.jfif" class="project-slider__item-img" data-u="image" alt=" Проведение комплексного правового анализа (Due Diligence) инвестиционного проекта с целью выделения..." data-at2x="/upload/resize_cache/iblock/728/2340_960_2/shutterstock_120486994.jpg">
-						<div class="project-slider__item-text">
-							<h4 class="project-slider__caption"> Проведение комплексного правового анализа (Due Diligence) инвестиционного проекта с целью выделения...</h4>
-														<p class="project-slider__content"> Юридическая группа «Яковлев и Партнеры» осуществила комплексный правовой аудит (due dilligence) инвестиционного проекта в Санкт-Петербурге, связанного с реконструкцией объекта культурного наследия в целях приспособления...</p>
-							<a href="company\projects\index" class="project-slider__link">Смотреть все проекты<span class="icon-arrow1"></span></a>
-						</div>
-					</div>
-									<div class="project-slider__item" id="bx_1373509569_3502">
-						<img src="upload\resize_cache\iblock\85a\1170_480_2\2-2@2x.jfif" class="project-slider__item-img" data-u="image" alt="Правовое сопровождение сделки по приобретению акций" data-at2x="/upload/resize_cache/iblock/85a/2340_960_2/2-2@2x.jpg">
-						<div class="project-slider__item-text">
-							<h4 class="project-slider__caption">Правовое сопровождение сделки по приобретению акций</h4>
-														<p class="project-slider__content"> Юристами «Яковлев и Партнеры» было осуществлено юридическое сопровождение сделки по приобретению 50,1 % в УК иностранной компании, владеющей 100-процентной долей в двух казахских ТОО, имеющих лицензии на разведку и...</p>
-							<a href="company\projects\index" class="project-slider__link">Смотреть все проекты<span class="icon-arrow1"></span></a>
-						</div>
-					</div>
-									<div class="project-slider__item" id="bx_1373509569_3472">
-						<img src="upload\resize_cache\iblock\035\1170_480_2\shutterstock_538370872.jfif" class="project-slider__item-img" data-u="image" alt="Оспаривание правомерности доначисления налога на прибыль" data-at2x="/upload/resize_cache/iblock/035/2340_960_2/shutterstock_538370872.jpg">
-						<div class="project-slider__item-text">
-							<h4 class="project-slider__caption">Оспаривание правомерности доначисления налога на прибыль</h4>
-														<p class="project-slider__content"> Юристы налоговой практики Юридической Группы «Яковлев и Партнеры» представляли интересы кредитной организации* при оспаривании правомерности доначисления налога на прибыль, исходя из расчетной цены акций, определенной...</p>
-							<a href="company\projects\index" class="project-slider__link">Смотреть все проекты<span class="icon-arrow1"></span></a>
-						</div>
-					</div>
-									<div class="project-slider__item" id="bx_1373509569_3455">
-						<img src="upload\resize_cache\iblock\741\1170_480_2\shutterstock_602151149.jfif" class="project-slider__item-img" data-u="image" alt="Представление интересов клиента в ВАС РФ" data-at2x="/upload/resize_cache/iblock/741/2340_960_2/shutterstock_602151149.jpg">
-						<div class="project-slider__item-text">
-							<h4 class="project-slider__caption">Представление интересов клиента в ВАС РФ</h4>
-														<p class="project-slider__content">Представление интересов клиента в ВАС РФ</p>
-							<a href="company\projects\index" class="project-slider__link">Смотреть все проекты<span class="icon-arrow1"></span></a>
-						</div>
-					</div>
-									<div class="project-slider__item" id="bx_1373509569_3404">
-						<img src="upload\resize_cache\iblock\5c8\1170_480_2\shutterstock_551620648.jfif" class="project-slider__item-img" data-u="image" alt="Правовое сопровождение строительства завода по производству фанеры" data-at2x="/upload/resize_cache/iblock/5c8/2340_960_2/shutterstock_551620648.jpg">
-						<div class="project-slider__item-text">
-							<h4 class="project-slider__caption">Правовое сопровождение строительства завода по производству фанеры</h4>
-														<p class="project-slider__content"> Юристы «Яковлев иПартнеры» осуществили правовое сопровождение строительства завода по производству фанеры в Республике Марий Эл для клиента ООО «ИнвестФорэст» (100% дочерняя компания иностранного инвестора Республики...</p>
-							<a href="company\projects\index" class="project-slider__link">Смотреть все проекты<span class="icon-arrow1"></span></a>
-						</div>
-					</div>
-							</div>
-			<div class="arrow-project is-main"></div>
-			<div class="dots-project is-main"></div>
-		</div>
-	</section>
-
-	
-<section class="seminars">
-	<div class="content-center">
-		<div class="seminars__container">
-            <h2 class="seminars__caption">
-                <a href="events\index" class="nocolor-link">Мероприятия и обучающие семинары</a>
-            </h2>
-
-			<div class="seminars__row">
-				<div class="seminars__left seminars__item video-tiles">
-    <a href="https://www.youtube.com/embed/ZScAqt2c8q8?autoplay=1" class="seminars__video video-tiles__trigger">
-        <img data-no-retina="" src="img\content\main.png" alt="Видео семинара">
-    </a>
-</div>				<div class="seminars__right seminars__item">
-	<div class="seminars__right-text">Мы готовы поделится своим практическим опытом и накопленными знаниями, организовав обучающие семинары для Ваших сотрудников по различным правовым блокам.</div>
-	<div class="form-standart bem">
-		<div class="form-standart js-ajax is-pla is-e1">
-			<form name="EVENTS_RU" action="/" method="POST" enctype="multipart/form-data" id=""><input type="hidden" name="sessid" id="sessid" value="6fc8e313593ba74932bba0f97862570f"><input type="hidden" name="WEB_FORM_ID" value="9">				<input type="hidden" name="block_name" value="form-standart">
-				<input type="hidden" name="confirm" value="1">
-				<input type="hidden" name="ajax" value="1">
-				<input type="hidden" name="action" value="formsubmit">
-
-				<div class="form-standart__fields-list">
-													<div class="form-standart__field" data-necessary="data-necessary">
-								<div class="form-standart__label">
-									Имя									 *								</div>
-
-								<div class="form-standart__item">
-									<div class="form-standart__inputs">
-																					<input type="text" class="inputtext" name="form_text_43" value="" data-fieldname="name" placeholder="Имя">																			</div>
-									<div class="form-standart__message">
-										<div class="form-standart__none">Заполнение поля обязательно</div>
-										<div class="form-standart__error"></div>
-									</div>
-								</div>
-							</div>
-						
-					
-													<div class="form-standart__field" data-necessary="data-necessary">
-								<div class="form-standart__label">
-									Телефон									 *								</div>
-
-								<div class="form-standart__item">
-									<div class="form-standart__inputs">
-																					<input type="text" class="inputtext" name="form_text_79" value="" data-fieldname="phone" data-mask="phone" placeholder="Телефон">																			</div>
-									<div class="form-standart__message">
-										<div class="form-standart__none">Заполнение поля обязательно</div>
-										<div class="form-standart__error"></div>
-									</div>
-								</div>
-							</div>
-						
-					
-													<div class="form-standart__field" data-necessary="data-necessary">
-								<div class="form-standart__label">
-									E-mail									 *								</div>
-
-								<div class="form-standart__item">
-									<div class="form-standart__inputs">
-																					<input type="email" class="inputtext" name="form_email_44" value="" data-fieldname="email" placeholder="E-mail">																			</div>
-									<div class="form-standart__message">
-										<div class="form-standart__none">Заполнение поля обязательно</div>
-										<div class="form-standart__error"></div>
-									</div>
-								</div>
-							</div>
-						
-					
-													<div class="form-standart__field" data-necessary="data-necessary">
-								<div class="form-standart__label">
-									Укажите, какая тема вас интересует									 *								</div>
-
-								<div class="form-standart__item">
-									<div class="form-standart__inputs">
-																					<textarea name="form_textarea_45" cols="40" rows="5" class="inputtextarea" data-fieldname="topic" placeholder="Укажите, какая тема вас интересует"></textarea>																			</div>
-									<div class="form-standart__message">
-										<div class="form-standart__none">Заполнение поля обязательно</div>
-										<div class="form-standart__error"></div>
-									</div>
-								</div>
-							</div>
-							
-							<div class="form-standart__field" data-necessary="data-necessary">
-                                <div class="form-standart__label select-label">
-									В представительство какого города Вы хотите обратиться										 *                                </div>
-
-                                <div class="form-standart__item select-item">
-                                    <div class="__inputs">
-										<select class="inputselect" name="form_dropdown_city" id="form_dropdown_city"><option value="81">Москва</option><option value="82">Киров</option><option value="83">Самара</option><option value="84">Нижний Новгород</option><option value="85">Махачкала</option></select>                                    </div>
-                                    <div class="form-standart__message">
-                                        <div class="form-standart__none">Заполнение поля обязательно</div>
-                                        <div class="form-standart__error"></div>
-                                    </div>
-                                </div>
-                            </div>
-						
-					
-													<div class="form-standart__field" data-necessary="data-necessary">
-								<div class="form-standart__label">
-									Соглашение									 *								</div>
-
-								<div class="form-standart__item">
-									<div class="form-standart__inputs">
-																					<input type="checkbox" data-fieldname="check" id="71" name="form_checkbox_check[]" value="71" placeholder="Соглашение"> <label for="71">Нажимая на кнопку, вы подтверждаете свое совершеннолетие, соглашаетесь на обработку персональных данных в соответствии с <a href="confirm_personal\index">Соглашением</a> и с <a href="politic_company\index">Политикой конфиденциальности сайта.</a></label>																			</div>
-									<div class="form-standart__message">
-										<div class="form-standart__none">Заполнение поля обязательно</div>
-										<div class="form-standart__error"></div>
-									</div>
-								</div>
-							</div>
-						
-										
-					
-					<div class="form-standart__common-error-placeholder"></div>
-
-
-					<div class="form-standart__field">
-						<div class="form-standart__item">
-							<div class="form-standart__inputs is-buttons">
-								<input type="submit" name="web_form_submit" value="Запросить семинар" class="button-primary seminars__btn">
-								<a href="#modal-callback" class="seminars__link is-hide-mobile open-modal">Заказать звонок</a>
-							</div>
-						</div>
-					</div>
-
-				</div>
-
-				</form>
-				<div class="success-message-modal">
-					<div class="success-message-modal__caption">Спасибо!</div>
-					<div class="success-message-modal__text">Спасибо, ваш запрос принят!</div>
-				</div>
-
-								<script>
-					$(function () {
-						$("#form_sOiWMD").initWebForm("form-standart", {"WP_FORM_ID":"form_sOiWMD","WP_SUCCESS_MODE":"S5","WP_DEFAULT_SUCCESS_MESSAGE":"\u0421\u043f\u0430\u0441\u0438\u0431\u043e, \u0432\u0430\u0448 \u0437\u0430\u043f\u0440\u043e\u0441 \u043f\u0440\u0438\u043d\u044f\u0442!"});
-					});
-
-									</script>
-
-			</form>
-		</div>
-	</div>
-</div>
-			</div>
-		</div>
-	</div>
-</section-->
 
 <!--
 <section class="team">
@@ -898,7 +700,7 @@
 
 
 
-            <!--div class="rewards__block ">
+        <!--div class="rewards__block ">
 		<ul class="rewards__list">
 			
 							<li class="rewards__item" id="bx_3485106786_2557">
