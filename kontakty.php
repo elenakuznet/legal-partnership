@@ -53,7 +53,10 @@
 	include('include/header.php');
 	$result =  /* fixed MMiC */ DB::Query("SELECT * FROM kont", $link);
 	$row =  /* fixed MMiC */ mysqli_fetch_array($result);
-	echo '				<section class="subheader1 ">
+	echo '				
+	<main class="main__container">
+	
+	<section class="subheader1 ">
 			
 				<div class="content-center">
 					<div class="subheader__text">
@@ -76,7 +79,9 @@
 <section class="contact">
 	<div class="contact__map-wrapper">
 	
-	<div id="map2" class="map2"></div>
+	<div class="map-container">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2263.465041009656!2d65.35123147638609!3d55.43712281626206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43b7bd5c57bfe25b%3A0x20cd9ded1e04855f!2z0K7RgNC40LTQuNGH0LXRgdC60LDRjyDQutC-0LzQv9Cw0L3QuNGPINCf0YDQsNCy0L7QstC-0LUg0L_QsNGA0YLQvdGR0YDRgdGC0LLQvg!5e0!3m2!1sru!2sru!4v1720162231081!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	</div>
 	
 		<!--
 		<div id="map-contacts-map-2714" class="contact__map">
@@ -110,28 +115,28 @@
 	}
 	if ($row["text10"] != '') {
 		echo '
-							<div class="contact__caption">' . $row["text10"] . '</div>
+			<div class="contact__caption">' . $row["text10"] . '</div>
 			<div class="contact__info">' . $row["text11"] . '</div>
 			 ';
 	}
-	if ($row["text12"] != '') {
-		echo '
-			<div class="contact__caption">' . $row["text12"] . '</div>
-			<div class="contact__info">' . $row["text13"] . '</div>
-			 ';
-	}
-	if ($row["text14"] != '') {
-		echo '
-			<div class="contact__caption">' . $row["text14"] . '</div>
-			<div class="contact__info">' . $row["text15"] . '</div>
-			 ';
-	}
-	if ($row["text16"] != '') {
-		echo '
-			<div class="contact__caption">' . $row["text16"] . '</div>
-			<div class="contact__info">' . $row["text17"] . '</div>
-			 ';
-	}
+	// if ($row["text12"] != '') {
+	// 	echo '
+	// 		<div class="contact__caption">' . $row["text12"] . '</div>
+	// 		<div class="contact__info">' . $row["text13"] . '</div>
+	// 		 ';
+	// }
+	// if ($row["text14"] != '') {
+	// 	echo '
+	// 		<div class="contact__caption">' . $row["text14"] . '</div>
+	// 		<div class="contact__info">' . $row["text15"] . '</div>
+	// 		 ';
+	// }
+	// if ($row["text16"] != '') {
+	// 	echo '
+	// 		<div class="contact__caption">' . $row["text16"] . '</div>
+	// 		<div class="contact__info">' . $row["text17"] . '</div>
+	// 		 ';
+	// }
 	echo '
 			</div>
 </section>
@@ -142,7 +147,7 @@
 	';
 	include('include/footer.php') ?>
 
-    <script>
+    <!-- <script>
     ymaps.ready(init);
 
     function init() {
@@ -163,7 +168,7 @@
         myMap.controls.remove('fullscreenControl');
         myMap.controls.remove('zoomControl');
     }
-    </script>
+    </script> -->
 </body>
 
 </html>

@@ -61,6 +61,8 @@
 	$row = /* fixed MMiC */ mysqli_fetch_array($result);
 
 	echo '
+	<main class="main__container">
+	
 	<section class="reason-slider__section ">
 		<div class="reason-slider ">
 		';
@@ -273,6 +275,28 @@
 <section class="tile2">
 <div class="content-center">
 <h1 class="title">Юридическая компания ПРАВОВОЕ ПАРТНЁРСТВО<br> профессиональные юристы и адвокаты</h1>
+        <section class="statistics">
+            <div class="stat">
+                <h2>10</h2>
+                <p>лет ведем юридическую
+практику</p>
+            </div>
+            <div class="stat">
+                <h2>500+</h2>
+                <p>дел завершено</p>
+            </div>
+            <div class="stat">
+                <h2>97%</h2>
+                <p>дел разрешаем
+в пользу клиентов</p>
+            </div>
+            <div class="stat">
+                <h2>5</h2>
+                <p>специалистов в различных
+отраслях права</p>
+            </div>
+        </section>
+
 <div class="infocenter clearfix">
 			<h2 class="infocenter__caption">' . $row["text36"] . '</h2>
 			<a href="yuridicheskie-uslugi" class="infocenter__button is-hide-mobile">' . $row["text37"] . '<span class="icon-arrow1"></span></a>
@@ -648,31 +672,38 @@
 		<div class="infocenter clearfix">
 		<h3 class="clients__subtitle section__subtitle">Наши клиенты</h3>
 		</div>
-          <ul class="clients__list">
-            <li class="clients__item">
-              <img class="clients__logo" src="./img/clients/white-hands.png" alt="" />
-            </li>
-
-            <li class="clients__item">
-              <img class="clients__logo" src="./img/clients/zepter.svg" alt="" />
-            </li>
-
-            <li class="clients__item">
-              <img class="clients__logo" src="./img/clients/health.jpg" alt="" />
-            </li>
-
-            <li class="clients__item">
-              <img class="clients__logo" src="./img/clients/temper.png" alt="" />
-            </li>
-
-            <li class="clients__item">
-              <img class="clients__logo" src="./img/clients/kaz.png" alt="" />
-            </li>
-
-            <li class="clients__item">
-              <img class="clients__logo" src="./img/clients/kvark.png" alt="" />
-            </li>
-          </ul>
+		<ul class="clients__list">
+                <li class="clients__item">
+                    <a href="https://belyeruchki.ru" target="_blank">
+                        <img class="clients__logo" src="./img/clients/white-hands.png" alt="Client 1" />
+                    </a>
+                </li>
+                <li class="clients__item">
+                    <a href="https://www.zepter.ru/" target="_blank">
+                        <img class="clients__logo" src="./img/clients/zepter.svg" alt="Client 2" />
+                    </a>
+                </li>
+                <li class="clients__item">
+                    <a href="https://mczdorovie.com/" target="_blank">
+                        <img class="clients__logo" src="./img/clients/health.jpg" alt="Client 3" />
+                    </a>
+                </li>
+                <li class="clients__item">
+                    <a href="https://temper.ru/" target="_blank">
+                        <img class="clients__logo" src="./img/clients/temper.png" alt="Client 4" />
+                    </a>
+                </li>
+                <li class="clients__item">
+                    <a href="https://kurgan-armatura.ru/" target="_blank">
+                        <img class="clients__logo" src="./img/clients/kaz.png" alt="Client 5" />
+                    </a>
+                </li>
+                <li class="clients__item">
+                    <a href="http://kvark45.com/" target="_blank">
+                        <img class="clients__logo" src="./img/clients/kvark.png" alt="Client 6" />
+                    </a>
+                </li>
+            </ul>
         </div>
 </section>
 
@@ -847,38 +878,53 @@
 						</div>
 
 						</div>	
-							<div id="map" class="map"></div>
+							<div id="map" class="map-container">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2263.465041009656!2d65.35123147638609!3d55.43712281626206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43b7bd5c57bfe25b%3A0x20cd9ded1e04855f!2z0K7RgNC40LTQuNGH0LXRgdC60LDRjyDQutC-0LzQv9Cw0L3QuNGPINCf0YDQsNCy0L7QstC-0LUg0L_QsNGA0YLQvdGR0YDRgdGC0LLQvg!5e0!3m2!1sru!2sru!4v1720162231081!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+							</div>
 								<!-- <img class="contacts__image" src="image/contacts/map.jpg" alt="карта местности"> -->
 							</div>	
 			</div>
 		</div>
     </section>
-
+</main>
     ';
 	include('include/footer.php') ?>
 
 
 	<script>
-		ymaps.ready(init);
 
-		function init() {
-			const myMap = new ymaps.Map("map", {
-				center: [55.437112, 65.353596],
-				zoom: 17,
-			});
+		// Add blur to the header
 
-			const mark = new ymaps.Placemark([55.437112, 65.353596]);
-			myMap.geoObjects.add(mark);
+const blurHeader = () =>{
+    const header = document.getElementById('header')
+    // Add a class if the bottom offset is greater than 50 of the viewport
+    this.scrollY >= 50 ? header.classList.add('blur-header') 
+                    : header.classList.remove('blur-header')
+}
+window.addEventListener('scroll', blurHeader)
 
-			myMap.behaviors.disable("drag");
 
-			myMap.controls.remove("geolocationControl");
-			myMap.controls.remove("searchControl");
-			myMap.controls.remove("trafficControl");
-			myMap.controls.remove("typeSelector");
-			myMap.controls.remove('fullscreenControl');
-			myMap.controls.remove('zoomControl');
-		}
+		// Map
+		// ymaps.ready(init);
+
+		// function init() {
+		// 	const myMap = new ymaps.Map("map", {
+		// 		center: [55.437112, 65.353596],
+		// 		zoom: 17,
+		// 	});
+
+		// 	const mark = new ymaps.Placemark([55.437112, 65.353596]);
+		// 	myMap.geoObjects.add(mark);
+
+		// 	myMap.behaviors.disable("drag");
+
+		// 	myMap.controls.remove("geolocationControl");
+		// 	myMap.controls.remove("searchControl");
+		// 	myMap.controls.remove("trafficControl");
+		// 	myMap.controls.remove("typeSelector");
+		// 	myMap.controls.remove('fullscreenControl');
+		// 	myMap.controls.remove('zoomControl');
+		// }
 
 		const swiper = new Swiper('.swiper', {
 			// Optional parameters

@@ -49,6 +49,7 @@
     <?php
     include('include/header.php');
     echo '
+    <main class="main__container">
     <section class="subheader1">
         <div class="content-center">
             <div class="subheader__text">

@@ -36,7 +36,9 @@
 	include('include/header.php');
 	$result =  /* fixed MMiC */ DB::Query("SELECT * FROM sogl",$link);
     $row =  /* fixed MMiC */ mysqli_fetch_array($result); 
-	echo'				<section class="subheader1 ">
+	echo'		
+	<main class="main__container">		
+	<section class="subheader1 ">
 			
 				<div class="content-center">
 					<div class="subheader__text">

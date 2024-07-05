@@ -46,7 +46,9 @@
 	<? 
 	include('include/header.php');
 	
-	echo'			<section class="subheader1 ">
+	echo'			
+	<main class="main__container">
+	<section class="subheader1 ">
 			
 				<div class="content-center">
 					<div class="subheader__text">
@@ -59,14 +61,11 @@
 			</section>
 
 												
-			<main class="main__content">
+	<main class="main__content">
 		<div class="content-center content-area">
 
 	
 <div class="specializations-detail">
-
-
-
 	<div id="specialization-news" class="specializations-detail__info-block">
 		<div class="specializations-detail__info-block-content">
 						
@@ -81,17 +80,15 @@
 		while($row26 = mysqli_fetch_array($result26))
 {
 echo'     					              
-              
-                                                   
-              
-                          	<div class="news-list__item js-news-item"  itemscope itemtype="https://schema.org/NewsArticle">
+
+                <div class="news-list__item js-news-item"  itemscope itemtype="https://schema.org/NewsArticle">
 					<div class="news-list__item-inner clearfix">
 						<div class="news-list__item-left clearfix">
 							<div class="news-list__item-date clearfix"><span>'.$row26["day"].'</span><span>'.$row26["mount"].'</span></div>
 							<a href="uslugi?nazvanie='.$row26["kat"].'"><div class="news-list__item-category is-hide-desktop">'.$row26["kat"].'</div></a>
 							<div class="news-list__item-person is-hide-mobile">
 																
-																									<span><a href="specialist?name='.$row26["persona"].'" class="frfrfra44">'.$row26["persona"].'</a></span>
+																	<span><a href="specialist?name='.$row26["persona"].'" class="frfrfra44">'.$row26["persona"].'</a></span>
 																							</div>
 						</div>
 						<div class="news-list__item-right">
@@ -120,13 +117,8 @@ echo'
 			<div id="load" class="watch__more js-news-load-more-wrapper">
 								<img src="img/loading.gif" id="imgLoad">
 							<div class="watch__more-link js-news-load-more">Загрузить еще</div>
-					
-					
 				</div>
 			</section>
-
-		
-	
 		</div>
 	</div>
 
@@ -147,7 +139,7 @@ echo'
 while($row27 = mysqli_fetch_array($result27))
 {
 echo'     					              
-								<a href="uslugi?id='.$row27["id"].'"  class="tile__item">
+			<a href="uslugi?id='.$row27["id"].'"  class="tile__item">
 				<img src="img/uslugi/'.$row27["img1"].'" alt="'.$row27["nazvanie"].'" title="'.$row27["opisanie1"].'" class="tile__img" >				<div class="tile__text">'.$row27["nazvanie"].'</div>
 				<div class="tile__arrow icon-arrow1"></div>
 			</a>
@@ -156,12 +148,10 @@ echo'
            echo'  
 							
 	</div>		
-								
-		
 	</section>
 
 
-					</div>
+	</div>
 	</div>
 </div>
 	<div class="is-hide" data-link-hide="specialization-projects"></div>

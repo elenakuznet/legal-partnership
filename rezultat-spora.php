@@ -59,7 +59,9 @@
 	<?
 	include('include/header.php');
 
-	echo '				<section class="subheader1 ">
+	echo '			
+	<main class="main__container">	
+	<section class="subheader1 ">
 			
 				<div class="content-center">
 					<div class="subheader__text">
@@ -70,7 +72,7 @@
 </div>	<h1 class="breadcrumbs__item3 is-hide-desktop" >' . $row["nazvanie"] . '</h1>					
 					</div>
 										
-									</div>
+				</div>
 			</section>	
 
 										
@@ -89,13 +91,13 @@
 				<span>Категория: <a href="uslugi?nazvanie=' . $row["kat"] . '" >
 ' . $row["kat"] . '</a></span>
 			</div>
-												</div>
+			</div>
 
 	
 			<div class="news-detail__content content-area">
 			<h4>' . $row["title1"] . '</h4>
 			' . $row["opisanie1"] . '
-			 <br>
+			<br>
  <br>
  ';
 	if ($row["img1"] != '') {
@@ -105,16 +107,18 @@
 	}
 	echo '
  <br>
+ 
  <h4>' . $row["title2"] . '</h4>
 			' . $row["opisanie2"] . '
 			 <br>
+ 
  <br>
  <h4>' . $row["title3"] . '</h4>
 			' . $row["opisanie3"] . '
-			 <br>
+		<br>
  <br>
+
  </div>
-			
 	
 	<!--	-->
 			<div class="news-detail__share">
@@ -131,11 +135,13 @@
 	}
 
 	if ($row["insta"] != '') {
-		echo '
+		echo ' 
+		<!--
 							<li class="social-share__item" data-action="share-link" data-count="Insta">
 					<a href="' . $row["insta"] . '" data-service="Insta" class="social-share__link js-share-link is-linkedin"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a>
 				</li>
-					';
+		-->
+				';
 	}
 	echo '
 					</ul>

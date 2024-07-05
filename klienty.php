@@ -50,7 +50,9 @@
 	include('include/header.php');
 	$result =  /* fixed MMiC */ DB::Query("SELECT * FROM klienty", $link);
 	$row =  /* fixed MMiC */ mysqli_fetch_array($result);
-	echo '	<section class="subheader1 ">
+	echo ' 
+	<main class="main__container">
+		<section class="subheader1 ">
 			
 				<div class="content-center">
 					<div class="subheader__text">
@@ -79,34 +81,38 @@
         					   ' . $row["text1"] . '    				
     					</div>
     					
-    				 <ul class="clients__list">
-            <li class="clients__item">
-              <img class="clients__logo" src="./img/clients/white-hands.png" alt="" />
-            </li>
-
-            <li class="clients__item">
-              <img class="clients__logo" src="./img/clients/zepter.svg" alt="" />
-            </li>
-
-            <li class="clients__item">
-              <img class="clients__logo" src="./img/clients/health.jpg" alt="" />
-            </li>
-
-            <li class="clients__item">
-              <img class="clients__logo" src="./img/clients/temper.png" alt="" />
-            </li>
-
-            <li class="clients__item">
-              <img class="clients__logo" src="./img/clients/kaz.png" alt="" />
-            </li>
-
-            <li class="clients__item">
-              <img class="clients__logo" src="./img/clients/kvark.png" alt="" />
-            </li>
-          </ul>							
-			
-			
-		
+    		<ul class="clients__list">
+                <li class="clients__item">
+                    <a href="https://belyeruchki.ru" target="_blank">
+                        <img class="clients__logo" src="./img/clients/white-hands.png" alt="Client 1" />
+                    </a>
+                </li>
+                <li class="clients__item">
+                    <a href="https://www.zepter.ru/" target="_blank">
+                        <img class="clients__logo" src="./img/clients/zepter.svg" alt="Client 2" />
+                    </a>
+                </li>
+                <li class="clients__item">
+                    <a href="https://mczdorovie.com/" target="_blank">
+                        <img class="clients__logo" src="./img/clients/health.jpg" alt="Client 3" />
+                    </a>
+                </li>
+                <li class="clients__item">
+                    <a href="https://temper.ru/" target="_blank">
+                        <img class="clients__logo" src="./img/clients/temper.png" alt="Client 4" />
+                    </a>
+                </li>
+                <li class="clients__item">
+                    <a href="https://kurgan-armatura.ru/" target="_blank">
+                        <img class="clients__logo" src="./img/clients/kaz.png" alt="Client 5" />
+                    </a>
+                </li>
+                <li class="clients__item">
+                    <a href="http://kvark45.com/" target="_blank">
+                        <img class="clients__logo" src="./img/clients/kvark.png" alt="Client 6" />
+                    </a>
+                </li>
+            </ul>		
 		</div>
 	</div>
 
