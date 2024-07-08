@@ -2,7 +2,6 @@
 <html lang="ru">
 
 <head>
-
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -49,11 +48,9 @@
 	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Lora:400,700" rel="stylesheet">
 
-
 </head>
 
 <body class="">
-
 
 
 	<?
@@ -66,12 +63,14 @@
 				<div class="content-center">
 					<div class="subheader__text">
 						<div class="breadcrumbs bem ">
-<ul class="breadcrumbs__list" itemscope="" itemtype="http://schema.org/BreadcrumbList"><li class="breadcrumbs__item" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem"><a class="breadcrumbs__link" itemprop="item" href="index" title="Главная"><span itemprop="name">Главная</span></a><meta itemprop="position" content="1"></li><li class="breadcrumbs__item" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem"><a class="breadcrumbs__link" itemprop="item" href="spory" title="' . $row17["text10"] . '"><span itemprop="name">' . $row17["text10"] . '</span></a><meta itemprop="position" content="2"></li></ul>
+						<ul class="breadcrumbs__list" itemscope="" itemtype="http://schema.org/BreadcrumbList"><li class="breadcrumbs__item" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+						<a class="breadcrumbs__link" itemprop="item" href="index" title="Главная">
+						<span itemprop="name">Главная</span>
+						</a><meta itemprop="position" content="1"></li><li class="breadcrumbs__item" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem"><a class="breadcrumbs__link" itemprop="item" href="spory" title="' . $row17["text10"] . '"><span itemprop="name">' . $row17["text10"] . '</span></a><meta itemprop="position" content="2"></li></ul>
 <br>
 <h1>' . $row["nazvanie"] . '</h1>
 </div>	<h1 class="breadcrumbs__item3 is-hide-desktop" >' . $row["nazvanie"] . '</h1>					
 					</div>
-										
 				</div>
 			</section>	
 
@@ -93,12 +92,14 @@
 			</div>
 			</div>
 
-	
 			<div class="news-detail__content content-area">
 			<h4>' . $row["title1"] . '</h4>
 			' . $row["opisanie1"] . '
+			<!--
 			<br>
- <br>
+			-->
+<br>
+
  ';
 	if ($row["img1"] != '') {
 		echo '<blockquote style="margin: 0 0 0 40px; border: none; padding: 0px;">
@@ -106,22 +107,25 @@
 </blockquote>';
 	}
 	echo '
+<!--	
  <br>
  
  <h4>' . $row["title2"] . '</h4>
 			' . $row["opisanie2"] . '
-			 <br>
- 
+			<br>
+  
  <br>
+ -->
  <h4>' . $row["title3"] . '</h4>
 			' . $row["opisanie3"] . '
 		<br>
  <br>
 
+
  </div>
 	
-	<!--	-->
-			<div class="news-detail__share">
+	
+	<div class="news-detail__share">
 			
 	<div class="social-share bem ">
 		<ul class="social-share__items js-share-block" data-action="share-link" >
@@ -151,14 +155,9 @@
 <br><br>
 
 <div class="specializations-detail">
-
-
-
 	<div id="specialization-news" class="specializations-detail__info-block">
 		<div class="specializations-detail__info-block-content">
 
-	
-	
 	<section class="news-list  js-news">
 		
 														';

@@ -41,8 +41,7 @@
 </head>
 <body class="">
 
-	
-	
+
 	<? 
 	include('include/header.php');
 	
@@ -57,7 +56,7 @@
 </div>		<h1 class="breadcrumbs__item3 is-hide-desktop" >'.$row17["text10"].'</h1>				
 					</div>
 										
-									</div>
+				</div>
 			</section>
 
 												
@@ -70,8 +69,6 @@
 		<div class="specializations-detail__info-block-content">
 						
 
-	
-	
 	<section class="news-list  js-news">
 		<div class="news-list__inner js-news-inner"  id="content" data-news-section-id="0" data-news-team-id="" data-news-projects-id="" data-specialization="" data-news-template="news-list" data-news-count="3">
 	';
@@ -79,6 +76,7 @@
 	
 		while($row26 = mysqli_fetch_array($result26))
 {
+	$row26["opisanie1"] = mb_strimwidth($row26["opisanie1"], 0, 550, "...");
 echo'     					              
 
                 <div class="news-list__item js-news-item"  itemscope itemtype="https://schema.org/NewsArticle">
@@ -88,16 +86,15 @@ echo'
 							<a href="uslugi?nazvanie='.$row26["kat"].'"><div class="news-list__item-category is-hide-desktop">'.$row26["kat"].'</div></a>
 							<div class="news-list__item-person is-hide-mobile">
 																
-																	<span><a href="specialist?name='.$row26["persona"].'" class="frfrfra44">'.$row26["persona"].'</a></span>
-																							</div>
+							<span><a href="specialist?name='.$row26["persona"].'" class="frfrfra44">'.$row26["persona"].'</a></span>
+							</div>
 						</div>
 						<div class="news-list__item-right">
 							<a href="uslugi?nazvanie='.$row26["kat"].'"><div class="news-list__item-category is-hide-mobile">'.$row26["kat"].'</div></a>
 							<div class="news-list__item-person is-hide-desktop">
-																
-																									<span><a href="specialist?name='.$row26["persona"].'" class="frfrfra44">'.$row26["persona"].'</a></span>
-																							</div>
-																							<a href="rezultat-spora?id='.$row26["id"].'"  class="frfrfra44">
+								<span><a href="specialist?name='.$row26["persona"].'" class="frfrfra44">'.$row26["persona"].'</a></span>
+								</div>
+							<a href="rezultat-spora?id='.$row26["id"].'"  class="frfrfra44">
 							<div class="news-list__item-caption" itemprop="name">'.$row26["nazvanie"].'</div>
 							<div class="news-list__item-text">
 								<p itemprop="description">'.$row26["opisanie1"].' </p>
@@ -111,7 +108,6 @@ echo'
 }  
 		echo'
 										
-			
 			</div>
 		
 			<div id="load" class="watch__more js-news-load-more-wrapper">
