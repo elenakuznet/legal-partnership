@@ -708,6 +708,7 @@
 </section>
 
 
+
     <section class="rewards">
         <div class="content-center">
             <div class="rewards__clarification">
@@ -775,6 +776,7 @@
 
         </div>
     </section>
+
 
     <section>
         <div class="container content-center">

@@ -53,12 +53,9 @@ else{
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700" rel="stylesheet">
 
-
 </head>
 
 <body class="">
-
-
 
     <?
 	include('include/header.php');
@@ -66,7 +63,7 @@ else{
 	echo'
 	<main class="main__container">	
 	
-	<section class="subheader1 ">
+	<section class="subheader1">
 				<div class="content-center">
 					<div class="subheader__text">
 						<div class="breadcrumbs bem ">
@@ -84,19 +81,19 @@ else{
 	<img src="img/uslugi/'.$row["img1"].'" alt="'.$row["nazvanie"].'" title="'.$row["nazvanie"].'"  itemprop="image">					</div>
 	<div class="specializations-detail__desc is-green-text is-first-letter">
 		<meta itemprop="name" content="'.$row["nazvanie"].'" >
-					<p itemprop="description">'.$row["opisanie1"].'</p>
+					<p itemprop="description" class="service__description">'.$row["opisanie1"].'</p>
 
-<p><b>'.$row["title1"].'</b></p>
-<p>'.$row["text1"].'
-</p>
-<p><b>'.$row["title2"].'</b></p>
-<p>'.$row["text2"].'
-</p>
-<p><b>'.$row["title3"].'</b></p>
-<p>'.$row["text3"].'
-</p>
+						<p><b>'.$row["title1"].'</b></p>
+						<p>'.$row["text1"].'
+						</p>
+						<p><b>'.$row["title2"].'</b></p>
+						<p>'.$row["text2"].'
+						</p>
+						<p><b>'.$row["title3"].'</b></p>
+						<p>'.$row["text3"].'
+						</p>
 
-			</div>
+	</div>
 
 	<div id="specialization-team" class="specializations-detail__info-block">
 		<div class="specializations-detail__info-block-content">

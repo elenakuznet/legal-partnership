@@ -6756,6 +6756,12 @@ ul.horizontal > li, ol.horizontal > li {
   font-size: 16px;
 }
 
+@media (max-width: 767px) {
+  .content-area {
+    font-size: 12px;
+  }
+}
+
 .content-area ol {
   counter-reset: myCounter;
 }
@@ -11468,7 +11474,8 @@ textarea:focus.ui-placeholder {
 
 .footer__copyright .copyright__matic {
   float: left;
-  color: #6F9089;
+  /* color: #6F9089; */
+  color: #D5D5D5;
 }
 
 .footer__copyright .copyright__webprofy {
@@ -11557,7 +11564,8 @@ textarea:focus.ui-placeholder {
 }
 
 .footer-mobile .copyright__matic {
-  color: #6E8D88;
+  /* color: #6E8D88; */
+  color: #D5D5D5;
   font-size: 12px;
 }
 
@@ -23271,6 +23279,7 @@ textarea:focus.ui-placeholder {
 .header__phones-wrapper {
   display: flex;
   flex-direction: column;
+  gap: 4px;
 }
 
 .header__write-link {
@@ -23310,8 +23319,16 @@ textarea:focus.ui-placeholder {
   font-size: 17px;
   font-family: var(--second-font);
   /* font-size: 20px; */
+
+  border: 1px solid white;
+  padding: 4px;
+  border-radius: 8px;
 }
 
+.header__phone-btn:hover {
+  color: #D5D5D5;
+  border: 1px solid #D5D5D5;
+}
 /* .header__social {
   display: flex;
   gap: 10px;
@@ -23546,6 +23563,13 @@ textarea:focus.ui-placeholder {
   .team__card {
     flex: 0 1 100%; /* Adjust to 1 item per row */
   }
+}
+
+
+/* Service */
+
+.service__description {
+  color: #000;
 }
 
 
@@ -23866,6 +23890,7 @@ textarea:focus.ui-placeholder {
 
 .copyright__link {
   white-space: nowrap;
+  /* color: var(--link-color); */
 }
 
 @media (max-width: 460px) {

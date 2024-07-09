@@ -58,16 +58,12 @@
 						<div class="breadcrumbs bem ">
 <ul class="breadcrumbs__list" itemscope="" itemtype="http://schema.org/BreadcrumbList"><li class="breadcrumbs__item" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem"><a class="breadcrumbs__link" itemprop="item" href="index" title="Главная"><span itemprop="name">Главная</span></a><meta itemprop="position" content="1"></li></ul><h1 class="breadcrumbs__item" id="breadcrumbs__item1">' . $row17["text11"] . '</h1>
 </div>	<h1 class="breadcrumbs__item3 is-hide-desktop" >' . $row17["text11"] . '</h1>					
-					</div>
-										
-									</div>
+					</div>						
+				</div>
 			</section>
 
 			<br><br>								
 		
-
-
-	
 	<section class="tile">
 	<div class="container content-center tile">	
 	';
@@ -75,7 +71,7 @@
 
 	while ($row27 = mysqli_fetch_array($result27)) {
 		echo '     					              
-									<a href="uslugi?id=' . $row27["id"] . '"  class="tile__item"  itemscope itemtype="https://schema.org/Product">
+				<a href="uslugi?id=' . $row27["id"] . '"  class="tile__item"  itemscope itemtype="https://schema.org/Product">
 				<img src="img/uslugi/' . $row27["img1"] . '" alt="' . $row27["nazvanie"] . '" title="' . $row27["opisanie1"] . '" style="width:100%" itemprop="image">				<div class="tile__text" itemprop="name">' . $row27["nazvanie"] . '</div>
 				<meta itemprop="description" content="' . $row["opisanie1"] . '" >
 				<div class="tile__arrow icon-arrow1"></div>
@@ -86,8 +82,6 @@
 	echo '   					
 	</div>	
 	</section>
-
-	
 
 ';
 	include('include/footer.php') ?>

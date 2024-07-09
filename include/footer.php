@@ -36,7 +36,9 @@ echo '
 							<!-- <i class="fa fa-mobile" aria-hidden="true"></i> -->
 							
 							' . $row17["text4"] . ' </a>	<br>
-							<a href="#modal-callback" class="header__phone-btn  open-modal phone__link"> <!-- <i class="fa fa-phone" aria-hidden="true"> --> </i> ' . $row17["text5"] . ' </a> 						
+							<!--
+							<a href="#modal-callback" class="header__phone-btn  open-modal phone__link"></i> ' . $row17["text5"] . ' </a> 	
+							-->					
 						</div>
 						<div class="footer__phone">
 							<a href="#modal-callback" class="header__phone-btn  open-modal">

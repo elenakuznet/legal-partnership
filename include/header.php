@@ -59,9 +59,12 @@
 							</li>
 						</ul>
 						<div class="header__write">
+							<a class="footer__write-link" href="mailto:urist-kurgan045@mail.ru">urist-kurgan045@mail.ru</a>
+							<!--
 							<a href="mailto:' . $row17["text3"] . '" class="header__write-link open-modal">
-							<!-- <i class="fa fa-envelope-o" aria-hidden="true"></i> -->
+							<i class="fa fa-envelope-o" aria-hidden="true"></i>
 							' . $row17["text3"] . '</a>
+							-->
 						</div>
 						
 						<div class="header__phones-wrapper">

@@ -52,6 +52,7 @@
 												
 			<main class="main__content">
 		<div class="content-center content-area">
+		
 <p>'.$row["text1"].'
 	
 </p>
