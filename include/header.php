@@ -76,7 +76,7 @@
 							</div>
 							<div class="header__phone">
 								<a href="#modal-callback" class="header__phone-btn  open-modal">
-								+7 (3522) 00-00-00
+								+7 (3522) 55-01-29
 								</a>
 							</div>
 						</div>

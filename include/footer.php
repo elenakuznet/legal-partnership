@@ -42,8 +42,8 @@ echo '
 						</div>
 						<div class="footer__phone">
 							<a href="#modal-callback" class="header__phone-btn  open-modal">
-										+7 (3522) 00-00-00
-										</a>
+										+7 (3522) 55-01-29
+							</a>
 						</div>
 						<div class="header__write">
 							<!-- <a href="mailto:' . $row17["text3"] . '" class="header__write-link open-modal"><i class="fa fa-envelope-o" aria-hidden="true"></i> ' . $row17["text3"] . '</a> -->
