@@ -154,7 +154,7 @@
 <header class="header-mobile bem is-hide-desktop">
 
 
-    	<div class="menu-top-mobile">
+    <div class="menu-top-mobile">
 		<div class="menu-top-mobile__holder">
 			<div class="menu-top-mobile__first-holder">
 				<div class="menu-top-mobile__level-holder is-level-1 is-active">
@@ -209,6 +209,7 @@
                       <a href="#" class="menu-top-mobile__link is-back-link js-back-link">
                         <span class="menu-top-mobile__back-icon icon-arrow"></span>
                         <span class="menu-top-mobile__link-wrap">' . $row17["text11"] . ' </span>
+						
                       </a>
                     </li>
 						';
@@ -217,12 +218,12 @@
 	while ($row33 = mysqli_fetch_array($result33)) {
 		echo '     		
 
- <li class=" menu-top-mobile__item">
-                      <a href="uslugi?nazvanie=' . $row33["nazvanie"] . '" class="menu-top-mobile__link">
-                        <span class="menu-top-mobile__link-wrap">' . $row33["nazvanie"] . '</span>
-                      </a>
-                    </li>
-   ';
+	<li class=" menu-top-mobile__item">
+			<a href="uslugi?nazvanie=' . $row33["nazvanie"] . '" class="menu-top-mobile__link">
+							<span class="menu-top-mobile__link-wrap">' . $row33["nazvanie"] . '</span>
+			</a>
+	</li>
+';
 	}
 
 	echo '  
@@ -231,7 +232,7 @@
 </ul><div class="menu-top-mobile__footer-content">
 	
 	<div class="header-mobile__number"><a href="tel:' . $row17["text4"] . '" class="header-mobile__number-link">' . $row17["text4"] . '</a></div>
-
+	
 	</div></div></li>                              
               <li class=" menu-top-mobile__item ">
                   <div class="menu-top-mobile__link-wrapper">
@@ -245,7 +246,12 @@
 					</ul>
 					<div class="menu-top-mobile__footer-content">
 	
-	<div class="header-mobile__number"><a href="tel:' . $row17["text4"] . '" class="header-mobile__number-link">' . $row17["text4"] . '</a></div>
+	<div class="header-mobile__number">
+		<a href="tel:' . $row17["text4"] . '" class="header-mobile__number-link">' . $row17["text4"] . '</a>
+	</div>
+	<div class="header-mobile__number">
+		<a href="tel:+73522550129" class="header-mobile__number-link">+7 (3522) 55-01-29</a>
+	</div>
 
 	</div>				</div>
 			</div>

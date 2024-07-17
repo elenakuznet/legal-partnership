@@ -952,7 +952,7 @@ window.addEventListener('scroll', blurHeader)
 					spaceBetween: 20
 				},
 				// when window width is >= 480px
-				480: {
+				580: {
 					slidesPerView: 2,
 					spaceBetween: 20
 				},

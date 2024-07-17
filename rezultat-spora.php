@@ -19,8 +19,8 @@
 	<meta name="robots" content="index, follow"> 
 	<title>' . $row["nazvanie"] . '</title>
 	<meta name="description" property="og:description" content="' . $row["opisanie1"] . '">  
-<meta property="og:image" content="https://юрист45.рф/img/spory/' . $row["img1"] . '" />   
-<meta property="og:title" content="' . $row["nazvanie"] . '" />
+	<meta property="og:image" content="https://юрист45.рф/img/spory/' . $row["img1"] . '" />   
+	<meta property="og:title" content="' . $row["nazvanie"] . '" />
 ';
 	} else {
 		echo '
@@ -59,7 +59,6 @@
 	echo '			
 	<main class="main__container">	
 	<section class="subheader1 ">
-			
 				<div class="content-center">
 					<div class="subheader__text">
 						<div class="breadcrumbs bem ">
@@ -102,7 +101,7 @@
 
  ';
 	if ($row["img1"] != '') {
-		echo '<blockquote style="margin: 0 0 0 40px; border: none; padding: 0px;">
+		echo '<blockquote style="margin: 0 0 0 40px; border: none; padding: 20px 0;">
  <img width="768" alt="' . $row["nazvanie"] . '" src="img/spory/' . $row["img1"] . '" height="512" title="' . $row["nazvanie"] . '"  itemprop="image">
 </blockquote>';
 	}
@@ -122,14 +121,14 @@
  <br>
 
 
- </div>
+</div>
 	
 	
 	<div class="news-detail__share">
 			
 	<div class="social-share bem ">
 		<ul class="social-share__items js-share-block" data-action="share-link" >
-		 ';
+		';
 	if ($row["vk"] != '') {
 		echo '
 										<li class="social-share__item" data-action="share-link" data-count="vkontakte">
@@ -194,7 +193,7 @@
 						</div>
 					</a>
 				</div>
-                      ';
+            ';
 		}
 
 		echo '   </div>	
